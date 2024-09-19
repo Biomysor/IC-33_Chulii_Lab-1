@@ -10,9 +10,10 @@ body header {
 }
 
 .navbar {
+
     background-color: #504f4f;
     overflow: hidden;
-    position: fixed;
+    position:fixed;
     top: -55px; 
     left: 0;
     width: 100%;
@@ -25,7 +26,7 @@ body header {
     top: 0; 
 }
 .button {
-    display: inline-block;
+    display: flex;
     padding: 10px 20px;
     padding: auto;
     padding-right: 100px;
@@ -46,6 +47,7 @@ body header {
 }
 
 .headofWeb h1 {
+    display:flex;
     font-size: 90px;
     text-decoration: line-through;
     transform: translateX(100%);
@@ -61,6 +63,7 @@ body header {
 }
 
 .headofWeb p {
+    display: flex;
     color: rgb(0, 0, 0);
     text-shadow: 0 0 5px rgb(255, 255, 255);
     font-size: large;
